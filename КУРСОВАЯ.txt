@@ -1,0 +1,3 @@
+https://pusher.com/tutorials/chat-laravel
+
+https://github.com/ammezie/laravel-chat
