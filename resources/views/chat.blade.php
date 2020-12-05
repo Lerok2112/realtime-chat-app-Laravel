@@ -15,10 +15,7 @@
                 <div class="panel-heading">Chat</div>
 
                 <div class="panel-body">
-                    
-                <?echo Auth::user()->created_at->format('d.m.Y H:i:s');?>
                     <chat-messages :messages="messages"></chat-messages>
-                    
                 </div>
                 <div class="panel-footer">
                     <chat-form

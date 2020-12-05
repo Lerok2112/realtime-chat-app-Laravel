@@ -52,11 +52,11 @@ class ChatsController extends Controller
         $message = $user->messages()->create([
             'message' => $request->input('message')
         ]);
-        $message = $user->messages()->create([
-            'created_at' => $request->input('created_at')
-        ]);
-        $message->dateTimeStr = date("Y-m-dTH:i", strtotime($message->created_at->toDateTimeString()));
-        $message->dateHumanReadable = $message->created_at->diffForHumans();
+        // $message = $user->messages()->create([
+        //     'created_at' => $request->input('created_at')
+        // ]);
+        // $message->dateTimeStr = date("Y-m-dTH:i", strtotime($message->created_at->toDateTimeString()));
+        // $message->dateHumanReadable = $message->created_at->diffForHumans();
 
         broadcast(new MessageSent($user, $message))->toOthers();
 

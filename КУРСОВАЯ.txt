@@ -1,3 +1,7 @@
 https://pusher.com/tutorials/chat-laravel
 
-https://github.com/ammezie/laravel-chat
+https://github.com/ammezie/laravel-chat\
+
+https://habr.com/ru/company/otus/blog/496652/
+
+https://code.tutsplus.com/ru/tutorials/build-a-real-time-chat-application-with-modulus-and-laravel-5--cms-24284

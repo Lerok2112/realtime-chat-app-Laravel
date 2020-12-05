@@ -11,8 +11,8 @@ class Message extends Model
      *
      * @var array
      */
-    protected $fillable = ['message'];
-    protected $date = ['created_at'];
+    protected $fillable = ['message', 'created_at'];
+
     /**
      * A message belong to a user
      *
